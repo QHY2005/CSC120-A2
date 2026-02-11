@@ -1,5 +1,5 @@
 class ResaleShop:
-    """Tells people this is a resale shop."""
+    """This file tells readers that this is a resale shop."""
     
     def __init__(self):
         """Initialize the resale shop with an empty inventory."""
@@ -23,6 +23,23 @@ class ResaleShop:
             computer.update_price(new_price)
         else:
             print("Error: computer not found in inventory.")  
+
+    def refurbish(self, computer, new_os=None):
+        if computer in self.inventory:
+            if computer.year_made < 2000:
+                computer.price = 0
+            elif computer.year_made < 2012:
+                computer.price = 250
+            elif computer.year_made < 2018:
+                computer.price = 550
+        else:
+            computer.price = 1000
+
+        if new_os != None:
+            computer.operating_system = new_os
+        else:
+            print("Computer not found. Please select another item to refurbish.")
+
 
     def print_inventory(self):
         """ This prints all computers in inventory with quantity."""

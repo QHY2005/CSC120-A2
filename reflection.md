@@ -1,3 +1,5 @@
 Use this file to record your reflection on this assignment. 
 
 What worked, what didn't, what advice would you give someone taking this course in the future?
+
+I was really lost initially on how should I work with this homework, since I did not understand the setting correctly in the very first stage. Hence, the first obstacle for me is to get started, where I have followed the OneCard in class example. Then, after checking readme and the given code in main.py, I have a sense of what to do with computer.py and resale_shop.py, since computer.py essentially serve as a "information hub" for the resale shop. Hence, I choose to start working on computer.py and found out majority of the work we should do is already "kind of given" in the main.py. Therefore, I would suggest the students in the future to read the README and main.py first, before they start doing the homework, which would not only saves a lot of time but also understand the inner relationships/ logic better.
